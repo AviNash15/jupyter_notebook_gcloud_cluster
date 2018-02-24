@@ -1,0 +1,1 @@
+gcloud compute ssh "jupyter-cluster-m" --project YOUR_PROJECT_NAME --zone=YOUR_PROJECT_ZONE	 -- -D 1080 -N -n &
